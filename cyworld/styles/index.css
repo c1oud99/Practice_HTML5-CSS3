@@ -23,8 +23,8 @@
 }
 
 .wrapper__left{
-    width: 208;
-    height: 472;
+    width: 208px;
+    height: 472px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
