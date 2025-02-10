@@ -1,17 +1,31 @@
 body {
     /*회원가입 배경*/
-
+    width: 670px;
+    height: 960px;
+    background-position: center;
+    background-color: #FFFFFF;
+    border: 1px solid #AACDFF;
+    border-radius: 20px;
+    box-shadow: 1px rgba(170, 205, 255, 1);
+    
 }
 
 h2{
     /* 회원 가입을 위해 정보를 입력해주세요 */
-   
+   width: 466px;
+   height: 94px;
+   font-weight: 700;
+   font-size: 32px;
+   color: #0068FF;
 }
 
 button{
 
     /* 가입하기 */
-
+    width: 470px;
+    height: 75px;
+    border: 1px;
+    border-radius: 10px;
     /* identical to box height */
 
    
