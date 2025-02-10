@@ -1,3 +1,7 @@
+* {
+    justify-items: center;
+}
+
 body {
     /*회원가입 배경*/
     width: 670px;
@@ -6,7 +10,7 @@ body {
     background-color: #FFFFFF;
     border: 1px solid #AACDFF;
     border-radius: 20px;
-    box-shadow: 1px rgba(170, 205, 255, 1);
+    box-shadow: 7px 7px 39px rgba(170, 205, 255, 1);
     
 }
 
@@ -31,6 +35,6 @@ button{
    
 
     /* button 가입하기 Rectangle 2 */
-
+    margin: 200px 24px 200px 24px;
    
 }
