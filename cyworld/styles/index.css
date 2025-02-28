@@ -24,6 +24,7 @@
 .wrapper_left {
     width: 208px;
     height: 472px;
+    background-color: bisque;
 }
 
 .wrapper_right {
