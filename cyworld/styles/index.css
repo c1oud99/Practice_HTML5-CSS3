@@ -17,5 +17,16 @@
 }
 
 .wrapper {
+    display: flex;
+    flex-direction: row;
+}
 
+.wrapper_left {
+    width: 208px;
+    height: 472px;
+}
+
+.wrapper_right {
+    width: 524px;
+    height: 472px;
 }
