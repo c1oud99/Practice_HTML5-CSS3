@@ -30,3 +30,18 @@ calculate {
 button {
     padding: 20px;
 }
+
+@media (max-width: 600px) {
+    .calculator {
+        width: 90%;
+        font-size: 1.3rem;
+    }
+    
+    button {
+        padding: 15px;
+    }
+
+    .display {
+        height: 50px;
+    }
+}
