@@ -12,7 +12,13 @@ calculate {
     height: 60px;
     background-color: aliceblue;
     color: black;
+    font-size: 2.1rem;
     display: flex;
+    justify-content: flex-end; /*글자 오른쪽 정렬*/
+    align-items: center; /*수직 중앙 정렬*/
+    padding-right: 20px;
+    border-radius: 10px;
+    margin-bottom: 10px;
 }
 
 .buttons {
