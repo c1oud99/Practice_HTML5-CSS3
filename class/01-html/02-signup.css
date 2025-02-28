@@ -22,7 +22,6 @@ input {
     height: 80px;
 }
 
-
 button{
 
     /* 가입하기 */
@@ -35,6 +34,10 @@ button{
    
 
     /* button 가입하기 Rectangle 2 */
-    margin: 200px 24px 200px 24px;
+    /*margin: 200px 24px 200px 24px;*/
    
+}
+
+.select {
+
 }
