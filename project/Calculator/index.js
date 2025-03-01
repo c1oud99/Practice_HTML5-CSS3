@@ -10,3 +10,11 @@ buttons.forEach(buttons => {
         appendNumber(buttons.innerText);
     });
 });
+
+document.querySelector(".equal").addEventListener("click", () => {
+    try {
+        display.innerText = eval(display.innerText);
+    } catch {
+        display.innerText = "Error";
+    }
+});
