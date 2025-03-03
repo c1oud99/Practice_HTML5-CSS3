@@ -101,11 +101,12 @@ header {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     padding: 15px;
     text-align: center;
-    transition: transform 0.2s;
+    cursor: pointer; 
+    transition: transform 0.2s ease-in-out;
 }
 
 .product-card:hover {
-    transform: scale(1.05);
+    transform: scale(1.05); 
 }
 
 .product-card img {
