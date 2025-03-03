@@ -16,6 +16,20 @@
             <button id="cart-btn">🛒 장바구니</button>
         </div>
     </header>
+    
+    <!-- 상품 목록 (카테고리 필터 포함) -->
+    <section class="product-list-container">
+        <!-- 카테고리 필터 -->
+        <div class="category-filter">
+            <label for="category-select">카테고리:</label>
+            <select id="category-select">
+                <option value="all">전체</option>
+                <option value="electronics">전자제품</option>
+                <option value="fashion">패션</option>
+                <option value="books">책</option>
+                <option value="furniture">가구</option>
+        </select>
+    </div>
 
     <!-- 상품 목록 -->
     <section class="product-list">
@@ -36,26 +50,28 @@
             <h3>상품 3</h3>
             <p>₩15,000</p>
             <button class="view-details">상세보기</button>
-            <div class="product-card" data-id="4">
-                <img src="./image/윈더아웃 와이어팟.PNG" alt="상품4">
-                <h3>상품 4</h3>
-                <p>₩10,000</p>
-                <button class="view-details">상세보기</button>
-            </div>
-            <div class="product-card" data-id="5">
-                <img src="./image/poster1.PNG" alt="상품5">
-                <h3>상품 5</h3>
-                <p>₩15,000</p>
-                <button class="view-details">상세보기</button>
-            </div>
-            <div class="product-card" data-id="6">
-                <img src="./image/도리퍼니처 캐빈 2인 원목 식탁.JPG" alt="상품6">
-                <h3>상품 6</h3>
-                <p>₩15,000</p>
-                <button class="view-details">상세보기</button>
-        </div>
+        </div> <!-- 여기 닫힘 추가 -->
 
+        <div class="product-card" data-id="4">
+            <img src="./image/윈더아웃 와이어팟.PNG" alt="상품4">
+            <h3>상품 4</h3>
+            <p>₩10,000</p>
+            <button class="view-details">상세보기</button>
+        </div>
+        <div class="product-card" data-id="5">
+            <img src="./image/poster1.PNG" alt="상품5">
+            <h3>상품 5</h3>
+            <p>₩15,000</p>
+            <button class="view-details">상세보기</button>
+        </div>
+        <div class="product-card" data-id="6">
+            <img src="./image/도리퍼니처 캐빈 2인 원목 식탁.JPG" alt="상품6">
+            <h3>상품 6</h3>
+            <p>₩15,000</p>
+            <button class="view-details">상세보기</button>
+        </div>
     </section>
+
 
     <!-- 위시리스트랑 장바구니 추가 버튼 클릭시 모달 창 연결 부분 -->
     <iframe id="modal-frame" src="modal.html" style="display:none;"></iframe>

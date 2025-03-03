@@ -22,7 +22,56 @@ header {
     margin-top: 20px;
 }
 
-/* 위시리스트 & 장바구니 버튼 */
+
+
+/* 카테고리 필터를 상품 목록 상단 왼쪽에 배치 */
+.category-filter {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    width: fit-content;
+    position: relative;
+    left: 0;
+}
+
+/* 상품 목록 영역 */
+.product-list-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* 왼쪽 정렬 */
+    width: 100%;
+}
+
+/* 카테고리 필터 제목 스타일 */
+.category-filter label {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* 카테고리 선택 드롭다운 */
+.category-filter select {
+    padding: 8px 12px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+    cursor: pointer;
+}
+
+/* 드롭다운 선택 시 효과 */
+.category-filter select:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+}
+
+
+/* 위시리스트, 장바구니 버튼 */
 .wishlist-cart-buttons button {
     background-color: #fff;
     border: 1px solid #ddd;
@@ -36,7 +85,7 @@ header {
     background-color: #f0f0f0;
 }
 
-/* 상품 목록 스타일 */
+/* 상품 목록 */
 .product-list {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -72,4 +121,26 @@ header {
 .product-card p {
     font-weight: bold;
     color: #666;
+}
+
+/* 상세보기 버튼 */
+.view-details {
+    background-color: #a8abb6;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.view-details:hover {
+    background-color: #d9dadf;
+}
+
+
+@media (max-width: 768px) {
+    .product-list {
+        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    }
 }
